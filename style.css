@@ -1,0 +1,131 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* global */
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(images/Backround.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.top-header{
+    font-family: 'Roboto', sans-serif;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+
+/* header component */
+.main-header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3F72AF;
+    color: #F9F7F7;
+    padding: 10px;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo-image{
+    width: 35px;
+}
+
+.logo-container a{
+    color: #F9F7F7;
+    text-decoration: none;
+}
+
+.logo-title:hover {
+    color: #DBE2EF;
+    transition: 0.1s ease-in-out;
+}
+
+.nav-menu ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menu ul a:hover{
+    color: #DBE2EF;
+    transition: 0.1, ease-in-out;
+    border-bottom: 2px solid black;
+}
+
+.nav-menu ul a{
+    text-decoration: none;
+    color: #F9F7F7;
+}
+
+.tittle{
+    text-align: center;
+}
+
+.bottom{
+    margin: 100px;
+    size: 1000px;
+}
+
+.search-input {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: white;
+  font-size: 15px;
+  width: 100%;
+}
+.filters {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: white;
+  font-size: 15px;
+  width: 100px;
+}
+.add-button {
+  background: #007bff;
+  color: white;
+  border: none;
+  width: 100px;
+  height: 50px;
+  border-radius: 12px;
+  font-size: 24px;
+  cursor: pointer;
+}
+table, th, td {
+    width: 1000px;
+    border: 1px solid black;
+}
+
+.edit{
+    padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #2e7d32;
+}
+.delete {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #c62828;
+}
+
+.top-table{
+    background: #007bff;
+}
